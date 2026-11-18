@@ -1,12 +1,7 @@
-"use client"
-
-import { createClientComponentClient } from "@supabase/auth-helpers-nextjs"
 import { supabase } from "@/lib/supabaseClient"
-import { cookies } from "next/headers"
 import Link from "next/link"
 import BlogCard from "@/components/BlogCard"
 
-import { useRouter } from "next/navigation"
 
 export const dynamic = 'force-dynamic';
 
