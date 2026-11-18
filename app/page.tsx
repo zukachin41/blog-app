@@ -1,3 +1,5 @@
+"use client"
+
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs"
 import { supabase } from "@/lib/supabaseClient"
 import { cookies } from "next/headers"
